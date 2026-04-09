@@ -1,34 +1,294 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <h1>Desafios das tabelas
 
-        <h2>Times de Futebol
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aulinhaHTML</title>
+    <link rel="shortcut icon" href="https://noticiasdatv.uol.com.br/noticia/the-masked-singer/globo-se-fantasia-de-redetv-com-fred-mercury-prateado-no-masked-singer-76142" 
+    type="image/x-icon">
+</head>
 
 <body>
+    <h1>frederico mercurio prateado</h1>
+    <figure>
+        <picture>
+            <source srcset="https://pbs.twimg.com/media/Fvx5uScWAAACJsB.jpg" media="(min-width: 800px)">
+            <img src="https://www.areavip.com.br/wp-content/uploads/fotos/49918.jpg" alt="" width="300px">
+        </picture>
+    </figure>
+    <h4> &uarr;  </h4>
+    <hr>
+    <h1>Desafio das tabelas:</h1>
+    <h2>Tabela do Brasil &darr;</h2>
     <table border="2">
-           <thead>
-              <tr>
-                  <th> Brasil </th>
-              </tr>
-              <tr>
-                  <td>Estado</td>
-                  <td>Time</td>
-              </tr>
-              <tr>
-                  <td>São Paulo</td>
-                  <td>Corinthians</td>
-              </tr>
-              <tr>
-                  <td>São Paulo</td>
-                  <td>Palmeiras</td>
-              </tr>
-              <tr>
-                  <td>São Paulo</td>
-                  <td>São Paulo</td>
-              </tr>
-              <tr>
-                  <td>São Paulo</td>
-                  <td>Santos</td>
-              </tr>
-            <table>
+        <thead>
+            <tr>
+                <th colspan="2">Brasil</th>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">São Paulo</td>
+                <td>Corínthians</td>
+            </tr>
+            
+            <tr>
+                <td>Palmeiras</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+            </tr>
+
+            <tr>
+                <td>Santos</td>
+            </tr>
+       
+            <tr>
+                <td rowspan="4">Rio De Janeiro</td>
+                <td>botafogo</td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+            </tr>
+
+            <tr>
+                <td>Fluminense</td>
+            </tr>
+
+            <tr>
+                <td>Vasco</td>
+            </tr>
+         </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Tabela Dos Funcionários &darr;</h2>
+    <table border="2">
+        <thead>
+            <th rowspan="2">Funcionários</th>
+            <th rowspan="2">Semestre</th>
+            <th colspan="2">Gastos</th>
+            <th colspan="2">Lucros</th>
+            <tr>
+                <th>Líquido</th>
+                <th>Bruto</th>
+                <th>Líquido</th>
+                <th>Bruto</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">João</td>
+                <td>1º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        
+            <tr>
+                <td rowspan="2">Maria</td>
+                <td>1º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+
+            <tr>
+                <td>2º</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Tabela Do Produto &darr;</h2>
+    <table border="2">
+        <thead>
+            <th>Produto</th>
+            <th colspan="3">Análise De Preço</th>
+        </thead>
+        <tbody>
+            <th rowspan="4">Caixa JBL Bump!</th>
+            <th rowspan="2">Submarino</th>
+            <th>Boleto</th>
+            <td>R$ 300,00</td>
+
+            <tr>
+                <th>Cartão</th>
+                <td>R$ 350,00</td>
+
+            </tr>
+
+            <tr>
+                <th rowspan="2">Amazon</th>
+                <th>Boleto</th>
+                <td>R$310,00</td>
+
+            </tr>
+
+            <tr>
+                <th>Cartão</th>
+                <td>R$340,00</td>
+            </tr>
+        </tbody>
+        
+            <tr>
+                <th rowspan="4">Apple Watch SE</th>
+                <th rowspan="2">Submarino</th>
+                <th>Boleto</th>
+                <td>R$2300,00</td>
+
+            </tr>
+
+            <tr>
+                <th>Cartão</th>
+                <td>R$2500,00</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Amazon</th>
+                <th>Boleto</th>
+                <td>R$2350,00</td>
+            </tr>
+
+            <tr>
+                <th>Cartão</th>
+                <td>R$2350,00</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <th colspan="3"> total</th>
+                <td>R$10800,00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Tabela + Lista &darr;</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="4"> Meus Jogos Favoritos</th>
+            </tr>
+            <tr>
+                <th> NES</th>
+                <th>SNES</th>
+                <th>PlayStation</th>
+                <th>Xbox</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul type="circle">
+                        <li>Mario Kart 8 Deluxe (Nintendo Switch)
+                            <ul type="square">
+                                <li>Mario Bros 3</li>
+                                <li>Mario Lost Levels</li>
+                            </ul>
+                        </li>
+                        <li>Pokémon Emerald (Game Boy Advance)</li>
+                        <li>Fire Emblem: Awakening (Nintendo DS)</li>
+                        <li>Super Mario 64 (Nintendo 64)</li>
+                        <li>Super Smash Bros. Ultimate (Nintendo Switch)</li>
+                        <li>Metroid Prime (GameCube)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul type="square">
+                        <li>Super Mario RPG: Legend of the Seven Stars</li>
+                        <li>The Legend of Zelda: A Link to the Past.</li>
+                        <li>Super Metroid.</li>
+                        <li>Mega Man X.</li>
+                        <li>Kirby Super Star</li>
+                        <li>Star Fox.</li>
+                    </ul>
+                </td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>PlayStation (PSOne)</th>
+                                <th>PlayStation 2 (PS2)</th>
+                                <th>PlayStation 3 (PS3)</th>
+                                <th>PlayStation 4 (PS4)</th>
+                                <th>PlayStation 5 (PS5)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ul type="none">
+                                        <li>Ridge Racer</li>
+                                        <li>Tomb Raider</li>
+                                        <li>Metal Gear Solid</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul type="none">
+                                        <li>Grand Theft Auto II</li>
+                                        <li>Grand Theft Auto II</li>
+                                        <li>GTA 3</li>
+                                        <li>God of War</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul type="none">
+                                        <li>LittleBigPlanet</li>
+                                        <li>Grand Theft Auto V</li>
+                                        <li>The Last of Us</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul type="none">
+                                        <li>Uncharted 4: A Thief’s End</li>
+                                        <li>Bloodborne</li>
+                                        <li>God of War</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul type="none">
+                                        <li>Marvel’s Spider-Man</li>
+                                        <li>Demon’s Souls</li>
+                                        <li>God of War</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>   
+                <td>
+                    <ol type="I">
+                        <li>007</li>
+                        <li>007: Quantum of Solace</li>
+                        <li>2006 FIFA World Cup</li>
+                        <li>A Kingdom for Keflings</li>
+                    </ol>
+                </td> 
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
